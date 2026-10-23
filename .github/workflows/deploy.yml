@@ -21,4 +21,4 @@ jobs:
 
       - name: Sync files to S3
         run: |
-          aws s3 sync . s3://cmtr-ac643e5v-bucket-1792753854-442426853265-eu-west-1-an --exclude ".git/*" --exclude ".github/*" --delete
+          aws s3 sync . s3://cmtr-ac643e5v-bucket-1792753854 --exclude ".git/*" --exclude ".github/*" --delete
